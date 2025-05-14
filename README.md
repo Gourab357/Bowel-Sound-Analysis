@@ -1,6 +1,9 @@
-# Bowel-Sound-Analysis for Health Classification (Machine Learning, AI model)
-• Developed an AI-driven system using SVM classification to analyze bowel sounds for early gut health diagnosis, achieving 74.48% accuracy.
+# Bowel-Sound-Analysis Using Machine Learning (Machine Learning, AI model)
 
-• Extracted key acoustic features (MFCCs, Jitter, Shimmer, Pitch, HNR) from 420 healthy & 250 unhealthy bowel sound recordings for classification.
+• Developed a non-invasive, AI-driven system to classify bowel sounds into Healthy or Unhealthy for early detection of gastrointestinal disorders — addressing the rising global concern of bowel-related conditions, including bowel cancer.
 
-• Planning to enhance the model with CNN for improved accuracy and deploy it as a web-based application for real-time health analysis.
+• Achieved 85.82% classification accuracy using a CNN trained on Mel-spectrograms, outperforming SVM and logistic regression models.
+
+• Extracted acoustic features (MFCCs, Jitter, Shimmer, Pitch, HNR) from a clinical dataset from Poznan University of Medical Sciences, Poland (411 healthy, 393 unhealthy samples).
+
+• Currently developing a web-based application for real-time bowel sound monitoring and planning to improve the model using hybrid CNN-RNN architectures.
